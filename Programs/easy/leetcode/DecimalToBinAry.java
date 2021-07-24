@@ -27,8 +27,7 @@ public class BinaryToDecimal {
         System.out.println("Enter Binary number : ");
         int num = in.nextInt();
 //        System.out.println("Decimal Number(Method 1) :  " + binaryToDecimal(num));
-        System.out.println("Decimal Number(Method 2) :  " + binaryToDecimal1(num));
-//        System.out.println(Integer.toBinaryString(num));
-//          hello
+//        System.out.println("Decimal Number(Method 2) :  " + binaryToDecimal1(num));
+        System.out.println(Integer.toBinaryString(num));
     }
 }
