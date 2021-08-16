@@ -61,7 +61,7 @@ public class SumOfLargestAtEvenOddPos {
         System.out.println(oddSorted[oddSorted.length - 2] + evenSorted[evenSorted.length - 2]);
     }
     public static void main(String[] args) {
-        int[] array = {1, 8, 0, 2, 3, 5, 6};
+        int[] array = {3,2,1,7,5,4};
         int n = array.length;
         largeSum(n,array);
     }
