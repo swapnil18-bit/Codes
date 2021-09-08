@@ -10,8 +10,8 @@ public class LCMandHCD {
         return a/gcd(a,b)*b;
     }
     public static void main(String[] args) {
-        int a = 4;
-        int b = 5;
+        int a = 30;
+        int b = 35;
         System.out.println("GCD: " + gcd(a,b));
         System.out.println("LCM: " + lcm(a,b));
     }
